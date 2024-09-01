@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #282D35;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  padding: 1em 1.5em;
+}
+
+.nav-logo-text, .nav-title {
+  margin: 0;
+}
+
+.logo-text {
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.nav-title {
+  color: #DEEBF8;
+  font-weight: 600;
+}
+
+.nav-icon {
+  height: 35px;
+  margin-right: 0.5em;
+}
+
+main {
+  padding: 2.5em 1.5em;
+  color: white;
+  background-image: url(./images/logo2.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
+
+.main-title {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.main-facts {
+  margin-top: 2em;
+}
+
+.main-facts > li {
+  line-height: 19px;
+  padding-block: 0.75em;
+}
+
+.main-facts > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
